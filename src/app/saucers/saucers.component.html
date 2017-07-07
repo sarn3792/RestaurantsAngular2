@@ -1,0 +1,10 @@
+<h2>{{restaurant.name}} > Saucers</h2>
+<a routerLink="/"> Back to restaurants </a>
+<ul>
+	<li class="card" *ngFor="let saucer of saucers"> 
+		<h4>{{saucer.name}}</h4>
+		<p>{{saucer.description}}</p>
+		<span>$ {{saucer.price}}</span>
+		<a routerLink="/saucers/{{saucer.id}}/comments">View comments</a>
+	</li>
+</ul>

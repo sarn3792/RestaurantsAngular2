@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+.card{
+	display: inline-block;
+	padding: 20px;
+	border: solid 1px #ccc;
+	box-shadow: 5px 5px 5px #ccc;
+	width: 25%;
+	height: 200px;
+	margin: 20px;
+	position: relative;
+}
+
+.card p{
+	color:#333;
+}
+
+.card a{
+	position: absolute;
+	right: 20px;
+	bottom: 10px;
+}
